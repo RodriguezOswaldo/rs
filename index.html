@@ -1,10 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
     <link rel="shortcut icon" href="rs.png">
     <title>Sociedad de Socorro</title>
     <style>
@@ -22,6 +27,7 @@
             height: 100%;
 
         }
+
         .container {
             background: rgba(16, 37, 158, 0.39);
             text-align: center;
@@ -32,12 +38,14 @@
             padding-right: 30px;
             box-shadow: 1px 1px 3px rgb(99, 91, 91);
         }
+
         span {
             font-weight: bolder;
             font-size: 1.1em;
             padding: 40px;
             text-align: center;
         }
+
         li {
             list-style: none;
             padding: 10px;
@@ -46,20 +54,24 @@
             margin-left: 0px;
             box-shadow: 1px 1px 3px rgb(99, 91, 91);
         }
+
         li a {
             font-size: 1em;
             text-align: justify;
             text-decoration: none;
         }
+
         footer {
             font-size: smaller;
             padding: 1px;
             padding-bottom: 10px;
         }
+
         footer a {
             text-decoration: none;
         }
-        h2 {
+
+        .jumbotron {
             padding: 20px;
             background: rgb(167, 118, 118);
             padding-right: 30px;
@@ -67,26 +79,32 @@
             margin-left: 50px;
             box-shadow: 2px 2px 3px rgb(78, 71, 71);
         }
+
         hr {
             width: 90%;
             text-align: center;
             margin-right: 13px;
         }
+
         /* a:default{
             
         } */
         a:visited {
             color: brown;
         }
+
         a:focus {
             color: orange;
         }
+
         a:hover {
             color: white;
         }
+
         a:active {
             color: cyan;
         }
+
         @media(min-width: 650px) {
             ul {
                 display: grid;
@@ -111,8 +129,9 @@
 
 <body>
     <div class="container">
-        <h2>Clases de la Sociedad de Socorro</h2>
-
+        <div class="jumbotron">
+            <h2>Clases de la Sociedad de Socorro</h2>
+        </div>
         <ul>
             <li>
                 <span>13 de Octubre</span><br>
@@ -185,31 +204,39 @@
                 <span> 23 de Febrero</span><br>
                 <a target="_blank" href="https://www.churchofjesuschrist.org/study/general-conference/2019/10/34eyring?lang=spa">
                     Mujeres del convenio en colaboración con Dios </a> <br>|
-                    presidente Henry B. Eyring</a>
+                presidente Henry B. Eyring</a>
             </li>
             <li>
                 <span>8 de Marzo</span><br>
                 <a target="_blank" href="https://www.churchofjesuschrist.org/study/general-conference/2019/10/27budge?lang=spa">
                     Confianza constante y resiliente</a> <br> |
-                    élder L. Todd Budge &amp; <br>
-                    <a target="_blank" href="https://www.churchofjesuschrist.org/study/general-conference/2019/10/16renlund?lang=spa">
-                        Un compromiso inquebrantable con Jesucristo</a> <br> |
-                        élder Dale G. Renlund
+                élder L. Todd Budge &amp; <br>
+                <a target="_blank" href="https://www.churchofjesuschrist.org/study/general-conference/2019/10/16renlund?lang=spa">
+                    Un compromiso inquebrantable con Jesucristo</a> <br> |
+                élder Dale G. Renlund
             </li>
             <li>
                 <span> 22 de Marzo</span><br>
                 <a target="_blank" href="https://www.churchofjesuschrist.org/study/general-conference/2019/10/11holland?lang=spa">
                     El mensaje, el significado y la multitud Por</a> <br> |
-                    élder Jeffrey R. Holland
+                élder Jeffrey R. Holland
             </li>
         </ul>
 </body>
 <footer>
-    <p>&copy;2019 | <a  target="_blank" href="https://www.churchofjesuschrist.org/?lang=spa">Rama
+    <p>&copy;2019 | <a target="_blank" href="https://www.churchofjesuschrist.org/?lang=spa">Rama
             West Columbia 2nd</a> | South Carolina </p>
 </footer>
 </div>
 
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
